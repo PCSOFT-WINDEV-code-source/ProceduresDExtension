@@ -1,0 +1,224 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Exemple_Linux
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Exemple_Linux
+ identifier : 0x2386037602359599
+ internal_properties : CAAAAAgAAAA4OY4qH3SJFaOv+KEWlWxTMa+cl3gilt8SQLqix2kau8lIlip+uG/n1jqwcTv5TqCaExdbzVgqGtxslZgHIhps8rmBjsx4w7M9fRrko5s0TLBn6T75nKLF8Zz+C/BslC/8GzyyVM7D2kQ9UHILDTkqC7d22uOIo96esv7Uum3T9AnFZ6tNwYnp/396RipqjzgMZYQUdPDpoOsrg0mVF17sCN4UJvbenY7U9rS3i2h44ZsXs5rJCxaj/dlFjmOt3FTQdbDbmdENPm925os3vpSbvs634+2h94wID1M/jTozZz52h7G2pWIwgkA8d6Ip//eVMwTRr0ES3U11coKYXKC2LRwFeqJD7cnBA6woqzgarJb9FVnVxikG5deiVe7QoNRQlic7YUjfFBCpkj8ekHA0n4Zs42uT1ERk+UVOsxkdw20BipMhhfNPH3hQh1zMR7B21x9SvyHvox7YdBOunrB4vK9qH8rl26EqRT5j7ak4Mbl0vv2FarsFQe3FuwHTwPs3e6RBNvojrQSZoTJ3QHAkFu+hxEj/N7UU8fPCGFxyeidhhEtLBObw13gr7hjuPiEHXLkY11rDC6Akpi2NHw4kexZpxNImZydGU1laV+ZmJ1P+l0uAkNkpH0SMr3ZrL/tbSR46Ro5Ho1lqVtQYUGMZaymq4/McmsAHzJ2CZ4mkMGCptw+8FOcRJPpG2jj/AN4CN5QP+obKMj9Z/Nv14cDxbZiVog==
+ properties :
+  width : 803
+  height : 728
+  widthClient : 801
+  heightClient : 696
+ controls :
+  -
+    name : LIB_TestCouleurFond
+    identifier : 0x2386037602369599
+    internal_properties : CAAAAAgAAAAPnzYr4KBkAxP1xUR78KWkyDMahmChgS4kElQvcnWySKB9PmMYRkp4NRy35fe25HdKA2r2AKWkFSH+U83ZgRBY5AOmWuVbtOhJ+rgMdFlewMKDore3UwWJfPWxDIVLiH3K9fUmtZHykVotYpcjjLMuxE9q9iMxxxs4PcP+p1TjBYyrBo2t9vrrIZ4HMqbCni03WNvxaarX+6JpDOOmqvbBEidz8NIjgflGflzGiiwexWLoLfIhBipwYzaalFoINjz4fiBWpzNPCBihCouQ0ybRTbejaHLNLGzOLvake+ZwuoD6+ufsMvhwX7SyrvitxPm+Ld6gnpPO1ppucopGQWsy4wMgiKdKFU1nU2iLn/bd6Dqo8KcNHVER/j7WuV3pQDcWfX1CParMj1s/qsq3eWe8pFiAgb2K+SIztdpWcHE9hKX7g3uIbP7tOceIOjj/lVWJXr90Z/d9UP2+fHQXhosTGv+iSxpJll6hblSyybZN/RLAP0VnU5Q=
+    properties :
+     x : 253
+     y : 500
+     width : 320
+     height : 36
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Explications
+    identifier : 0x2386037602379599
+    internal_properties : CAAAAAgAAABx95HKw4Kge6SCSBiC0Av03oM6ORPwvTJg9QJLm3PtDFMQh0rTQB5bUcHXUC/4KPluJ9FsH5A5h4OykpJSyH8fU2gIhvPD24dWi6nN6qi6bGDPW1KjEpc20XHV0blBjhBHQnquUFNJPPKuJV4vfHF10Z8ONPn3uyfqCaZQXpnFF9BOUeCltj4Yn3A+2nwjdzJQ5pSpDuNgr5cGas3ge4bfrKAZXXFM5ByRTmP1qRrMwZxQtz1sbOjIIcWae2Skn5pwiyJdd2K04Fxv1cwgXTZKQCJVIErSvSjNbmkorvvyuYrrw2xFmtdjCUXda8odocFsGCg4DeY+nRX4OE5Gj3q7oULRswDT212Fipw4Ko3aOKOglgSVTig+2pXCOq7zU0VdRyFAfqOPKzDrSz+855PGTqjYNjmSY47aIo40an5i5pmU9B0W3ntXdQz+NsoXxbzDxx9E0k3KA6Ofel+Hcj+XFfuUicLrvtcSIl9GKwKzCmLJLLxvg5VI2QRBYjYnR1xFRfVyoVjT/LZin+NQBNgu/zNCl5lxdl1hJNI/4FdInIjDevD1YQRQYn0djnOGET2Tmew0RJL3puuKjHQplXbcQmj/o6CTu0D8ZHqReK6Lgws7N8c1Mg0l7275xvn0rE3GLxsZDVS8KJG1G+FSOqhFiES2VYaR30K5htQRU/qw01/ZNb4yLGaYmSU+s/enIUaEb16D68vAhtU/T7fJFPUCBTW79SLZrKuh0DAtgcRiFlvvgwvHvYUIczCzpVcu2Jd6MZNGv8amCLA0wazySOL/D80+8qaOyozoOXtdB8fAwz+YF9/3iLiFNwuf8fzQUdAJf522sMfJ5c2zmLGI3nI3KD1eekUM7RFKxrFChOebA9jMYGVud339W3689Cxm1vCBpKuVzF2n6PExZqSz1sfMTHe6U54Kfv5ymG891Oz+GcVPG+FJivu4Ek1IVdFEHztrq8rMQnkUKheUFpozeR9akZbVRqdv0qyh7TK80n31L3A2fDxsj5slUt8p1NjEPsKNoNHnAozYT5r8g7JRgvq9aOAhHyqR8UC+LUYxa0HRNa9koFCqUt8px0VRVXk9jcQgQlHv8CIU5FeVpxCUU0S63ysisWE6yAjrJ1bPkCES3TExPmGniRF4OFempQ3cZg==
+    properties :
+     width : 803
+     height : 216
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Cas_1
+    identifier : 0x2386037602389599
+    internal_properties : CAAAAAgAAACqcaSHHp18fK2MnH4akhlDmKW5gD9MWCIXT4aGIEFo5IpHhQaK3o2p2aRSrMDIbSzpBsf30FuYNO6iD+nJNOoEf3KKebMLQHRSLlL2f7YCPXPFpVivyDzbXh6vvYGCWnmZmswlp5aXzPD94Oo0Z3dYryI3YED4pekAewHerrlPYffM2gHS8xFSlkKuxkMqsrvqZ+7wNImjhfj0OGA3EW1lFTUgHY6fNpbon6Y88WV4TXYhkc2mg+OI/t3pdXVoEJE6hVUzzp4o4tvJF4zYQLzgRNd9JAN+yOYwCW6wWm6twfLX2PpjDhlocTC9o35SPjRgJrDCgSIp5oBwZSstjuPUOTn43cHHPPPRN/y06ymTcQcYrtgKDGpNhc98n4ST+UdgM/zMjJvaNcPwieCCdWh36qNkTLNnY8xbtIWyktSpSyo0EAfatYmkz1XgpYmsg6Gw5XGZJS06Nnn0qv/KEcKbeQ6gS/4rswm9osn6wOwPhgTUOtB7zTChhYxKAmcb/A+l4Rs2X7rb8pk3Y7UrVSfvDSt4s08+5I0+pJJ/LkiEAEnmSjbGkGl08YRt/7VoTucLY9jGmj+wBy2LSqya5wyHtOLFMMXmQowyO6vggeVxrbD78/EeDZrO2c66wd46tWQBrXym1wqoxHXj8Ey5pD38TVMYh7v93PxKja59hC2brAWMNuyhqx9vE6USl9hlyI62gNM8SXqvPJv+TU9wNGU5lGPbUOhD/u90UUNpfWOZg6kN0HmP9osgmt0ZUAx2rJR4TZvknxPBjV1U5bQ5WO4hT0VIpqN2ygaeDHJulexBqEP8H/yNBTxDEkVW0uc9W/qZy/ccW7DTlLpP1kqizBE3HICqTgneVWch2AMpmjAmfgHbDOt2Bipa+gHvL49m+O3Mh8lYtzVsHV0n2xh+P0Coq6oVcCP8CIJxJGvXfI6DvG4RD3pCQyft/S9vLGDbpRnsW4+s3OZpLkrptSOxgmJIw2qMPKT9W5BadvpXFVZmNvkZ4gt7v/RY1RwifDec
+    properties :
+     x : 6
+     y : 222
+     width : 789
+     height : 115
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Tester_2
+    identifier : 0x2386037602399599
+    internal_properties : CAAAAAgAAAAQd9TH672iFUHkDsh4d2O/sQGnrGekGoNr0XSUIN52xPLWLZBb7ux+hzpQfM4ekq8boOX+q1zjknMNMDRQdPGv4bcwCvbPxc9uRrBSfdan1HP6WZUOHezFSC3KxfjGY02kRTX397c1LEv6wweN467vIi8mO+wXDfwpDywleTZGculQdfxjmkY2DdSMITfFSNjzfeLPWevX3so5b/4yYsZyojult5MZNEAlFdHXa5YqjVuIAj/uVW6CnUQelNm3mgd/JOlUBC9uJVx1trr0nKC/JhX3cGWcEUsPnnnr9rvtuAXVnwoEC8fiiBUNDlPNC2Qdw2euUiq8J16jVemxfQDethIhCZMjvZCZ8wTTPwFYM+l8x4iBPtIWMG84SGlIjb1zhFDBpSNB9W+pE3jgP38XFmHotB6K2cWWkaREClixWRajPg+WRSUJ5fLUFPWFeNzAHEvOLNedU2YDAUUT3qaXBs0mY9pHOwkDghUMMU3DQJnnMA8H7sn2V+pzomvBGCwmih64fj+VIyigth6w8YUuQRg4PiSd2xQcCqhy3NRyddYPz29iAMg2wkOpGr9wTeGFuEiUl0AHrXaUCnlklWj9TOpWE4Rm/O+TMvBbRgAsTVHBmMvwc42NRAyMS0tfPYFfAJ0KXd3TtXOQEo5haTP20AFvD1NZjNVuU6N8q9XPRr4T2rtRW1J5gy1LVSHQ+iImhQP1o2pBYBgKwbFoxiWKFnp/SGyOL/T9Eki/3LbF029i+4nQoNyDvEtqkDYPwo3mfTRWU79ByxX1lx9XEYI1PSUvHwWsp8IINjPe2cDQevEa3fL/WX9aUAFYv6oWV70ZabrX9O+CXjc5nZ+h6reL0SRiPIZCAuPhMfPlL3Ldl7uhqwC/+m7IBd4oKBUOM3uUxnWSLVooMBm0UbnBpx3fozUjSqPOgP0Hy3kmm6rpeKvh/iKudBmJmBkR
+    properties :
+     x : 579
+     y : 343
+     width : 216
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         dhMaDateHeure est une DateHeure
+         info("Format long : " + dhMaDateHeure.Formate(),"", "Format court : " + dhMaDateHeure.Formate(vrai))
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Cas_2
+    identifier : 0x23860376023a9599
+    internal_properties : CAAAAAgAAACVcGA5hY/afO0/zUNGC9k3I14sRo8yYkVs7GuDfZhw86s058Ery4Fd2DLUHGcfFN9tK56jgBwsHGoVGcDvTi7SWjmgKqBzAylWzRQa2jmfRdQfCOe2WqedFy4EKNZY79tCv/pnbJv6Y+ASu9bF+RSV4Nj3pB0Izo8zp7ys1jauj3Kb20QQSFwqm+FixlZHzlUg7jA7fwZHs5WRvH4kLLJE1ctzXNR233gdoI8fqcakSd5283bt4d9nJtdtQM/KfiAPibWs9oAiAD9oWbhFk5L9wp3g3e6DfksW2qRT5p+kyRiECTJgbghy7d1blNIJHMWJYbSbQnxuW9itDfReaqFNPnRxbvWfQAbVOS3h6s7jxY2wA84emN8lpLrdyeGwAUImJXVCFxKrDvJioJImj+xzzno3KnCk816xMZIkDVdRqHam6Kx0umwf3/S5S4GWYdRjaDUJtaLlscZoffMjFcnodWXfVdNnd3EAmc4EkPRCtR8PNYB3GRYn7biiLjp98mfpp+ZLewenUMR7H3FCspq6uRqsIOJWrTsmyhL2TNrvh5kg43QCBjb8iek+PKWZinsbOP4e0eA7y+/wOzxnEd1WbWP/f4iWksCWN/2pxTpn/X5JRiuvMnsUWsVT1twKs49w/JMjNV/YQi/OPo8R/1MPCWr9jjBuo0iLqbB36gJDVetjblofahtNHDk1fqKewqea9giZBpcAwVE6qmD0ZCzJRtX0mq9WVyVc9fYbYLgVVbMdWjhs66Aja5E0iKz3kKnW3XdtsLSRnFH9
+    properties :
+     x : 6
+     y : 397
+     width : 789
+     height : 97
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Tester_3
+    identifier : 0x23860376023b9599
+    internal_properties : CAAAAAgAAAANpJKQA1Pe7MN6ek7XMyalmAb46Ebj0VlaZVEPytKWBCGgo6qtq8PdYgCIYCJJ68WouUUjeJVRLTfC3YJwnzdupEzO+NiLzJ09qMvMC/H8uHxRMBVqy5PTySaqg6Y6HceO/vCHX9N5At5Ys6OK7jr+iNYcMNuYwsUW3G2lhY030prudsYwsRO4qGmaJw6SRAGKCeZbZuxfmBaXhHzeneGNXuwbTnRrC9W2QKjBxsBiH+BlDBYKuO9dfF7F4cW4TUSHDFkh/XBDTpMgkWwbcdsrB31PLiijJbfJBKFttdjm9ZfNyNwFIt2rOqbUwb6rP/yUCpk/7yE8oBHzOnWJmY2Uizf+Wfy7BGFtdm2lQWg00kr9gIJw7Ibh+baJykjJ14QacK8+hXoxj4WP3tA4V2VfLZj6jva7XcRvBq88FoYmJFQ8MpJwT9tYcXpQ/xZWu96kbgfHxcQBeQH72BC/BUx4cj6gwGlooT4z6m+O1woKMbarFkVa2R5aC8GieFO+GS3mzVCXXWG7IMpl4OUaDUtNJnq9ncbqVo1DxenmdFjhU91lzFuY1U/a9PdUF+NBIXR777kf35Efhz4FCv1qsVZnCmXp+Qn/DlTe0yfBz6NdDyibMNGB8u0Crs8wBgmO9b+MRLWqYRqk/5HAjpgP22nJhViBHvYwM9kevqiHUeBCsnw/K30XrtNEjPVE6VTmuKpr2xD90IzoeouEMyyZvUu4fBycMBHPCbHOg0mnH3TuCoMopwfkk4rwn9Lolq+NEdNNS8eLJYbcbLHPtvCGr5hmOgk4YS1WOSFjmiGqrX27+27ZVs7VyhiKffIqfaOL9+R3En+atmVKb0FMQ2NjoxlLfAGNuU6PXYMo2KceGLBIgDW++h/r1513dcYkSF3W2PqbJRGzerwnIWvkKEQSb5NdEL7xz6X2872lB4aWvKyRLqYxRNWG9SYbFcTCG/LnZ7PZ/ckl+Oc=
+    properties :
+     x : 579
+     y : 500
+     width : 216
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Tableau de couleurs
+         tabCouleursHTML est un tableau de chaines
+         tabCouleursHTML.ajoute("#F48FB1")
+         tabCouleursHTML.ajoute("#C2185B")
+         tabCouleursHTML.ajoute("#64B5F6")
+         tabCouleursHTML.ajoute("#1565C0")
+         tabCouleursHTML.ajoute("#81C784")
+         tabCouleursHTML.ajoute("#2E7D32")
+         
+         MaCouleur est une Couleur
+         
+         // Récupère une couleur aléatoire
+         MaCouleur = htmlversrvb( tabCouleursHTML[hasard(1, tabCouleursHTML..Occurrence)] )
+         
+         // Applique la couleur initiale en couleur de fond
+         LIB_TestCouleurFond.CouleurFond	= MaCouleur
+         
+         // Applique une couleur lisible en couleur de texte
+         LIB_TestCouleurFond.Couleur		= MaCouleur.CouleurLisible()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Cas_3
+    identifier : 0x23860376023c9599
+    internal_properties : CAAAAAgAAABqFD0362BF9DicQdXc9xrlIrQSuQ/YVsk54ncktMXAdMIwGJmooBEH+wLhFWoP+cd4H4kLKMTiv9bGN4Mlktj2SUwqPcn3gBL4Z40eU7nIqEMS3zLKhJixOT1rtroUbGCSl+cdo+7e4SDpFzvjKGhkHJ2PYcKmt/GsMk7Um31i17GUbrDh7vWXHKejj+RmbtvxfphL7tqQQMDPTAiqvUzCiD38u8OYjhw1AlmGcV2sNaLSYc0xGv1DX7EqWDtSOkcYb5yVy1OZ/+OK9DIdqWUCo0A0WbFtsnlYAA5mRkI2FeS3jfJRJxGFn4a2FnjKmGAI+0yxakg2JXvhnKEPMfOsCw2WKtnEIGqMSp7LU0pwhOf1XG07G+CRmQWZjszut02N0yfSYwG/ofjJRdyP8i3qrwc27XpM/VxP67iVZHaHSY8ukDB2FK+pulB/KRZD12d8mRouhu1ykpK5VLLV1Ss1blcpNySA6a6RzQ9uoZhhg7MqhB/g+IjBhiEzbzIvzENAn0hkfC54Cqc2LHhVVtI9MrY+iL3vkDQQ6wcn3VeJ0hw2/pgm5XHkdiSj1vJ3U+j8Fz8hp+U8J9U0JB6Lx1L7HyQKWSIW/B/kdZlrNivLaRgHUG4MOXU59cDXXaXV1TzvA3PwLFTnyVjTlzSZS5Uipuso20E9kpQU6vHAZbeEFBpWcq5a4h0oFXDpWkjqc5WBA6qJCuz7EmvMU09GeK8bInUUm9gK+R80Wdf+VuZaUSxVNqTMOVPNS8KImzhhulBatWK1OkM/DQ2EtISxxYWveVWJ7BJLmy4rExS98Od4F2GH3YLQnmLfqqdFWUqrGLT9fGgIs+pL2g==
+    properties :
+     x : 6
+     y : 554
+     width : 789
+     height : 94
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Tester_4
+    identifier : 0x23860376023d9599
+    internal_properties : CAAAAAgAAABEF1G/DjuyZCgefL2h22rbwjg47cS9eQtapzip27YV/YT93E0B11VgzH7CsQYJP6TYjHwiLbgsSq3TIOOGwPq1aqUblX0cFIicutAdz8aPZWFEmiWHRocfmrdDQqbJ2WFfkKJ36DsbtN9Hp3zKlgkdDmrQ+Y8TaZZkbq9awx3N8gZ3wBgdCuHDEsR+Cw9+vlaxIXmekPkD1OkxWTzLseLY1Ycnbep/uQ+Z1HXzKHr9IVaXHFqAGeoR8JrtxeERdzJPQyVPiiC+TTVx7uKJZ6xftKZKtvWYTadGV79HmBUfJ5WoAuhRRsvBNRopILCfcIsZYGF0p1JQITXKIcX/JJTmjkXHcLmybf2eiR0wU4gyN5qXS4DCiRT91n5C5/SQqDHapXcRO87N5gNxG8uJl9QThuKThHfQVX2VrgOnvDrOXpeExP15qi38o4nNWkZfVMniqt7b9j9gT+HXtjK4F42LnAESsP0q5A7PcO5vDVHnsKdnM5bzHKg/WBSOgtcDEn4zUThi6S31e/1qhJ79R+gLf0stXgL5t94ckvdoHIXLkj3+2FSmny7WyJt6/h2MjpXly2HMPsQviKURuHSgDjOhNc9lsg1dPwBQW8RHdYMoBEb+8rVur2mwLcIDhvVaBbLwEBhB41sM1Z5BLVc3ajc1yQHAXR64HPuGLetfjKordXn0LeW1pLp5W4tpMdvGC7f/zXhKLAPQoV4237E3ywj2n5vK5DGXno4y8eLnelILPkLCOLc/Vd/kZsINygbHLshOn+oINZe5kQNqvMegG8gmOm3DEeM55o6H9z6iOAEPrdBZRP1daAMW3G3AfXXhulRBNJzASsAwv7HXtCOv9c3cgiA9xrKTLto7cE0kzwflsbXteKga9dtNBawTlOtiqphy0Tacm4dL2Z3QMKHjxGhxQue7t0M=
+    properties :
+     x : 579
+     y : 654
+     width : 216
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         sTexte est une chaine
+         sRésultat est une chaine
+         
+         // Texte initial
+         sTexte = "Ceci est    un  TEXTE simple    avec des MOTS     en      MAJUSCULE et  des suites   d'espaces."
+         // Applique plusieurs transformations à ce texte :
+         // - suppression des espaces en double,
+         // - passe tout en minuscule
+         // - passe uniquement les premières lettres de chaque mot en majuscule
+         sRésultat = sTexte.SupprimeDoubleEspace().Minuscule().PremièreLettreEnMajuscule()
+         
+         info("Texte initial :", sTexte, "", "Texte modifié :", sRésultat)
+         
+         
+         
+         tabEntiers est un tableau d'entier
+         
+         // Tableau initial
+         tabEntiers = [1, 4, 6, 8, 2, 9, 3, 7, 2, 3, 6, 4, 7]
+         // Récupère la somme des éléments dédoublonnés et triplés
+         nRésultat est un entier = tabEntiers.Multiplie(3).Distinct().Somme()
+         
+         info("Tableau initial : ", tableauverschaine(tabEntiers, " , "), "", "Somme des éléments dédoublonnés et triplés :", nRésultat)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      
+      
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAB/E2SZRb9VnQU5+PivybZwVafwXhgCAWSYftdyjxWxFx7cb58ydr0ud57ZygZVSIIWCI/Me2Ok
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1386037700659684
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

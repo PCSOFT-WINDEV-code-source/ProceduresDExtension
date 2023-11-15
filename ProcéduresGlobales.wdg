@@ -1,0 +1,138 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ProcéduresGlobales
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1362a5c400042196
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+     type : 720896
+  procedures :
+   -
+     name : CouleurLisible
+     procedure_id : 1397186366431214404
+     type_code : 15
+     code : |1-
+      // Résumé : Renvoie une couleur de texte qui sera lisible sur un fond de la couleur fournie
+      // Syntaxe :
+      //[ <Résultat> = ] CouleurLisible (<CouleurOrigine> est Couleur)
+      //
+      // Paramètres :
+      //	CouleurOrigine (Couleur) : Couleur de fond
+      // Valeur de retour :
+      // 	Couleur : Couleur de texte adaptée
+      //
+      procédure CouleurLisible(CouleurOrigine est une Couleur) <extension> : Couleur
+      
+      nLuminosité		est un entier
+      rLuminance		est un réel
+      CouleurRetour	est une Couleur
+      
+      
+      // Calcul de la luminance de la couleur passée en paramètre
+      rLuminance = 1 - (0.299 * CouleurOrigine..Rouge + 0.587 * CouleurOrigine..Vert + 0.114 * CouleurOrigine..Bleu)/255
+      
+      // En fonction de la luminance, la couleur d'écriture doit avoir une faible ou une forte luminosité
+      SI rLuminance < 0.5 ALORS
+      	// Faible luminosité
+      	nLuminosité = 12
+      SINON
+      	// Forte luminosité
+      	nLuminosité = 88
+      FIN
+      
+      // La couleur renvoyée conserve la tonalité et la saturation
+      CouleurRetour = TSL(CouleurTeinte(CouleurOrigine), CouleurSaturation(CouleurOrigine), nLuminosité)
+      
+      renvoyer CouleurRetour
+     type : 458752
+   -
+     name : Formate
+     internal_properties : CAAAAAgAAABgqYOAlyAUsd821YaBlMJBm9rl4e0Sg9qU10neS/qsR0yEgneUhNgM1ZyJEqWYBoDX+Gjia26SKfbXk2H4xqhbxhwEhT19Y5uWNpW3lCWSMbfbSSJA7Gp9cTjfe6Yo8WZGihL60rtL2TOouoU5tOuoRcprDJO9wvnStGtXat69/zNKlwR5xwSl2k0t/FPTdzUk
+     procedure_id : 1397190635631469912
+     type_code : 15
+     code : |1+
+      // Résumé : Formate une date passée en paramètre 
+      // Syntaxe :
+      //[ <Résultat> = ] Formate (<dh> est dateheure [, <bFormatCourt> est booléen])
+      //
+      // Paramètres :
+      //	dh (dateheure) : DateHeure à formater
+      //	bFormatCourt (booléen - valeur par défaut=0) : Vrai pour récupérer un format court, Faux pour un format long
+      // Valeur de retour :
+      // 	chaîne UNICODE : Chaîne lisible correspondant à la DateHeure
+      //
+      procédure Formate(dh est une dateheure, bFormatCourt est un booleen = faux) <extension> : chaine
+      
+      si bFormatCourt ALORS
+      	renvoyer dh.verschaine(<§R1364e9ba00cc9b61¤fr-FR¤JJ-MM-AA HH:mm§>)
+      SINON
+      	renvoyer dh.verschaine(<§R1364e9b800cb9352¤fr-FR¤le Jjjj JJ Mmmm AAAA, à HHhmm§>)
+      FIN
+     type : 458752
+   -
+     name : Multiplie
+     procedure_id : 1397202923538320157
+     type_code : 15
+     code : |1+
+      // Résumé : Multiplie chaque valeur d'un tableau par un multiplicateur donné
+      // Syntaxe :
+      //[ <Résultat> = ] Multiplie (<tabEntiers> est tableau (entier), <nMultiplicateur> est entier)
+      //
+      // Paramètres :
+      //	tabEntiers (tableau (entier)) : Tableau d'entier
+      //	nMultiplicateur (entier) : Multiplicateur à appliquer
+      // Valeur de retour :
+      // 	tableau (entier) : Résultat
+      //
+      procédure Multiplie(tabEntiers est un tableau d'entiers, LOCAL nMultiplicateur est un entier) <extension> : tableau d'entiers
+      
+      
+      tabEntiers = tabEntiers.Transforme(nÉlément => nElement*nMultiplicateur)
+      
+      renvoyer tabEntiers
+     type : 458752
+   -
+     name : SupprimeDoubleEspace
+     procedure_id : 1397492451575147262
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime les doubles espaces d'un texte
+      // Syntaxe :
+      //[ <Résultat> = ] SupprimeDoubleEspace (<s> est chaîne)
+      //
+      // Paramètres :
+      //	s (chaîne UNICODE) : Texte initial
+      // Valeur de retour :
+      // 	chaîne UNICODE : Texte sans double espace
+      //
+      procédure SupprimeDoubleEspace(s est une chaine) <extension>
+      
+      sRes est une chaine = s
+      tantque contient(sRes, "  ")
+      	sRes = sRes.remplace("  ", " ")
+      FIN
+      
+      renvoyer sRes
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1362a5c400032196
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
